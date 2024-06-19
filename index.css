@@ -1,0 +1,94 @@
+body {
+  background-color: #ffffff; 
+  margin: 0;
+  padding: 0;
+}
+
+/* BARRA DE NAVEGACIÓ */
+.navbar {
+  width: 100%;
+  background-color: #000000;
+  overflow: auto;
+}
+.navbar a {
+  float: left;
+  padding: 15px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+.navbar a:hover {
+  background-color: #000;
+}
+.active {
+  background-color: #1635d1;
+}
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+
+/* IMATGE */
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+/* CONTINGUT */
+.container {
+  padding: 64px;
+}
+.intro {
+  font-size:20px;
+}
+.large {
+  font-size: 38px;
+}
+.text{
+  text-align: justify;
+  line-height: 1.5;
+}
+
+
+/* PEU DE PÀGINA */
+.footer {
+  background-color: #7f7f7f;
+  color: #fff;
+}
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 20px;
+  margin-left: 10%;  
+}
+.footer-content h3 {
+  color: #fff;
+}
+.footer-left,
+.footer-center,
+.footer-right {
+  width: 30%;
+}
+.footer-left ul,
+.footer-right ul {
+  list-style: none;
+  padding: 0;
+}
+.footer-left ul li,
+.footer-right ul li {
+  margin-bottom: 10px;
+}
+footer img {
+  width: 90px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  border-top: 1px solid #fff;
+  margin-bottom: 0; /* Afegir aquesta línia */
+}
