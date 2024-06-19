@@ -1,1 +1,3 @@
 # estabilitzaci-decostes
+kdvnivnuriosnvt
+## projecte
